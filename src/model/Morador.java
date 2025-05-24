@@ -62,7 +62,7 @@ public class Morador {
 
 	@Override
 	public String toString() {
-		String print = "Morador(a) " + nomeMorador + ", nº " + numApartamento + " | " + ;
+		String print = "Morador(a) " + nomeMorador + ", apt. " + numApartamento + " | " + carro.getModelo() + " " + carro.getCor() + " " + carro.getPlaca();
 
 		return null;
 	}
